@@ -78,4 +78,9 @@ for (let i = 0; i < numbers.length; i++) {
             break
     }
 }
+// write a code for function
+function add(a,b) {
+    return a+b
+}
+console.log(add(2,3))
 */
