@@ -1,0 +1,15 @@
+{
+  "name": "try-to-learn",
+  "version": "1.0.0",
+  "main": "test.js",
+  "scripts": {
+    "dev": "nodemon practice_01.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
