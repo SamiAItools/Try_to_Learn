@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "test.js",
   "scripts": {
-    "dev": "nodemon practice_03.js"
+    "dev": "nodemon practice_04.js"
   },
   "keywords": [],
   "author": "",
