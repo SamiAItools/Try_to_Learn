@@ -1,10 +1,10 @@
 {
   "name": "try-to-learn",
   "version": "1.0.0",
-  "main": "test.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon practice_05.js"
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
