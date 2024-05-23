@@ -2,8 +2,9 @@
   "name": "try-to-learn",
   "version": "1.0.0",
   "main": "test.js",
+  "type": "module",
   "scripts": {
-    "dev": "nodemon practice_04.js"
+    "dev": "nodemon practice_05.js"
   },
   "keywords": [],
   "author": "",
