@@ -6,7 +6,7 @@ const userSchema = new Schema(
   {
     username: {
       type: String,
-      required: [true, "Username is required"],
+      required: [true, "userName is required"],
       unique: true,
       lowercase: true,
       trim: true,
@@ -65,7 +65,7 @@ userSchema.methods.isPasswordMatch = async function (password) {
 userSchema.methods.generateAccessToken = function () {
   return jwt.sign({ 
     _id: this._id,
-    username: this.username,
+    userName: this.userName,
     email: this.email,
     fullName: this.fullName, 
   }, process.env.ACCESS_TOKEN_SECRET, {
